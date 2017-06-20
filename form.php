@@ -15,7 +15,7 @@
 <li> <a href="recipes.html">Favorite Recipes</a></li>
 <li class="active"> <a href="form.php">Register Contacts</a></li>
 <li> <a href="resume1.html">Resume</a></li>
-<li> <a href="../gallery.html">Gallery</a></li>
+<li> <a href="gallery.html">Gallery</a></li>
 <li> <a href="loginfin.php">Login</a></li>
  </ul>
 </div>
