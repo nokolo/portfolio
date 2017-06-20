@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>
+		Biography
+	</title>
+<link rel="stylesheet" href="css/bio.css">
+<link rel="stylesheet" href="css/port_print.css" media="print">
+<style>
+
+#button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #f44336;
+}
+#rotate {
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+}
+
+#rotate:hover {
+    width: 200px;
+    height: 200px;
+    -webkit-transform: rotate(360deg); /* Safari */
+    transform: rotate(360deg);
+}
+</style>
+</head>
+
+<body>
+
+<div class="topNav" id="menutop">
+<ul>
+<li> <a class="active" href="bio.html">Biography</a></li>
+<li> <a href="sports.html">Favorite Sports Teams</a></li>
+<li> <a href="recipes.html">Favorite Recipes</a></li>
+<li> <a href="form.php">Register Contacts</a></li>
+<li> <a href="resume1.html">Resume</a></li>
+<li> <a href="../gallery.html">Gallery</a></li>
+<li> <a href="loginfin.php">Login</a></li>
+ </ul>
+</div>
+
+<div id="biopic">
+<img src="../images/Bio.jpg" alt="Bio pic" width="80" height="80">
+</div>
+<br>
+<img id="rotate" src="../images/cloudimage.jpg" alt="Bio pic" width="100px" height="100px">
+<p>
+Nicholas Okolo Jr: <div id="career">Software Engineer</div><br>
+After finishing high school I attended <a href="http://www.monroecc.edu/">Monroe Commmunity Collge</a> with a concentration in mathemactics. Once I graduated I took a full time role in the banking industry from my part time status. As time went on I always expressed an interest in information technology so I decided to return to school and get my bachelors in Computer Science at the <a href="https://www.brockport.edu">College at Brockport</a>. I finished the program in 2014 and then took a contract position with the Dako Group. <br>I was then place with a company called Motor Information Systems. There I worked with Visual Studio Code and gained experience with using C#. When my role ended, a few months later I took a new role with another company that works as a military government contractor as a software engineer. This position heavily involved the telephony market. To increase my web programming skills I am currently enrolled in Boston University in the Computer Information Systems with a concentration in web development. I recently started in Spring 2017 term and so far my expectation has been met.</p>
+
+<!--
+-->
+<br>
+<button id="button">Semester Information</button>
+<div class="footer">
+	<p class="print">Please consider the environment when printing.</p>
+</div>
+<script src="js/courses.js"></script>
+</body>
+
+</html>

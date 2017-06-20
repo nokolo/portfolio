@@ -1,0 +1,111 @@
+
+/*Menu Navigation*/
+
+#menutop ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+
+#menutop li {
+    float: left;
+}
+
+#menutop li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#menutop li a:hover:not(.active) {
+    background-color: #FFF;
+}
+
+#menutop .active {
+    background-color: #FFFFFF;
+}
+
+body
+{
+    text-align: center;    
+    background-size: 100% 100%
+    background-position: center, fixed;
+}
+body #biopic
+{
+   background: url("../images/nice_grey.jpg") repeat-x fixed; 
+}
+body #sports, #recipes
+{
+   background: url("../images/lighter_grey.png"); 
+}
+
+#biopic
+{
+
+   border-radius: 30%;
+}
+
+table
+{
+  border-collapse: collapse;
+  width: 50%;
+}
+th, td
+{
+    text-align: left;
+    padding: 6px;
+}
+tr:nth-child(even){background-color: #FFFFFF}
+
+th
+{
+    background-color: #808080;
+    color: #ffffff;
+}
+p
+{
+    font-family: "Times New Roman", Times, serif;
+}
+
+p b 
+{
+  text-shadow: 0 0 3px #FFFFFF;
+  font-size: 150%;
+}
+
+a:link {
+    color: #808080;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    color: grey ;
+}
+a:active {
+    color: grey;
+}
+.pats img iframe
+{
+    float: left;
+}
+.lakers img iframe
+{
+    float: right;
+}
+.duke img iframe
+{
+    float: center;
+}
+.print
+{
+    display: block;
+}
+

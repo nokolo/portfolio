@@ -1,0 +1,29 @@
+{
+"myCourses":[
+	{	
+		"term": "Fall 2012",
+		"course": "Fundamentals of Computer Science",
+		"grade": "B+"		
+	},
+	{	
+		"term": "Spring 2013",
+		"course": "Fundamentals II of Computer Science",
+		"grade": "B+"		
+	},
+	{
+		"term": "Spring 2013",
+		"course": "Unix Tools",
+		"grade": "B"
+	},
+	{
+		"term": "Fall 2013",
+		"course": "Software Engineering",
+		"grade": "B"
+	},
+	{
+		"term": "Spring 2014",
+		"course": "Algorithms and Data Structures",
+		"grade": "B"
+	}
+]
+}
